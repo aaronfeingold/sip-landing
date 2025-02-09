@@ -51,12 +51,13 @@ export default function Home() {
         </div>
 
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-white to-pink-200 px-4">
-          Coming Soon: SIP, you Somm In Palm
+          Coming Soon: "Somm in Palm"
         </h1>
-        <p className="text-lg md:text-xl mb-12 text-pink-100 px-4">
-          We're launching our new platform this Valentine's Day. SIP The Owl!
-        </p>
 
+        <p className="text-lg md:text-xl mb-12 text-pink-100 px-4">
+          SIP the Owl is serving elevated dining experiences in{" "}
+          <b>New Orleans</b> this Valentine's Day.
+        </p>
         <div className="flex flex-col gap-4 w-full max-w-xs px-4">
           <a
             href="https://forms.gle/yourGoogleFormLink"
@@ -104,7 +105,7 @@ export default function Home() {
           className="flex items-center gap-2 text-white hover:text-pink-200 transition-colors text-lg"
         >
           <Globe size={20} />
-          <span>Visit my Professional Site</span>
+          <span>Learn About the Team</span>
         </a>
       </footer>
     </div>
