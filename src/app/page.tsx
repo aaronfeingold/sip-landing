@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { Facebook, Instagram, Globe } from "lucide-react";
+import sipTheOwl from "../../public/sipTheOwl.svg";
 
 export default function Home() {
   return (
@@ -42,7 +43,7 @@ export default function Home() {
       <main className="relative z-10 flex flex-col items-center text-center w-full max-w-md mx-auto">
         <div className="mb-12 w-full px-4">
           <Image
-            src="/owl-logo.png"
+            src={sipTheOwl}
             alt="SIP in Style Owl Logo"
             width={192}
             height={192}
@@ -56,7 +57,7 @@ export default function Home() {
 
         <p className="text-lg md:text-xl mb-12 text-pink-100 px-4">
           SIP the Owl is serving elevated dining experiences in{" "}
-          <b>New Orleans</b> this Valentine&apos;s Day
+          <b>New Orleans</b> this Valentine&apos;s
         </p>
         <div className="flex flex-col gap-4 w-full max-w-xs px-4">
           <a
