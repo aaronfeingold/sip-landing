@@ -51,12 +51,12 @@ export default function Home() {
         </div>
 
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-white to-pink-200 px-4">
-          Coming Soon: "Somm in Palm"
+          Coming Soon: &quot;Somm in Palm&quot;
         </h1>
 
         <p className="text-lg md:text-xl mb-12 text-pink-100 px-4">
           SIP the Owl is serving elevated dining experiences in{" "}
-          <b>New Orleans</b> this Valentine's Day.
+          <b>New Orleans</b> this Valentine&apos;s Day
         </p>
         <div className="flex flex-col gap-4 w-full max-w-xs px-4">
           <a
