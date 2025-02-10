@@ -61,7 +61,7 @@ export default function Home() {
         </p>
         <div className="flex flex-col gap-4 w-full max-w-xs px-4">
           <a
-            href="https://forms.gle/yourGoogleFormLink"
+            href="https://forms.gle/3uyzDNNS2qc7GnWG6"
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-4 border-2 border-white font-bold hover:bg-white hover:text-pink-900 transition-all duration-300 backdrop-blur-sm bg-white/10 rounded-lg text-lg"
