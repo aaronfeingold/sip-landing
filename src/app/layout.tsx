@@ -8,7 +8,8 @@ interface RootLayoutProps {
 
 export const metadata = {
   title: "inVinoVentures",
-  description: "A description of my website",
+  description:
+    "Meet SIP The Owl, the wine-loving owl who is ready to fly through the world of wine top find you the perfect pairings.",
   icons: {
     icon: "/favicon.ico",
   },
