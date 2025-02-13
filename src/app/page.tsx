@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { Facebook, Instagram, Globe } from "lucide-react";
+import { Instagram, Globe } from "lucide-react";
 import sipTheOwl from "../../public/sipTheOwl.svg";
 
 export default function Home() {
