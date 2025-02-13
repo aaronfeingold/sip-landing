@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { Instagram, Globe } from "lucide-react";
+import VenmoSection from "@/components/VenmoSection";
 import sipTheOwl from "../../public/sipTheOwl.svg";
 
 export default function Home() {
@@ -73,14 +74,7 @@ export default function Home() {
           >
             Join the Beta Version
           </a>
-          <a
-            href="https://venmo.com/Aaron-Feingold"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-6 py-4 border-2 border-white font-bold hover:bg-white hover:text-pink-900 transition-all duration-300 backdrop-blur-sm bg-white/10 rounded-lg text-lg"
-          >
-            Support the Project
-          </a>
+          <VenmoSection />
         </div>
 
         <div className="mt-12 flex gap-8">
