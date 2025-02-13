@@ -9,6 +9,7 @@ export default {
   ],
   theme: {
     extend: {
+      // Keep shadcn/ui required theme variables
       colors: {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
@@ -43,6 +44,12 @@ export default {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
+        // Your custom colors
+        wine: {
+          900: "#831843", // Your current bg-pink-900
+          800: "#9d174d", // For hover states
+        },
+        "wine-light": "#fab3a9", // Your custom rose color
       },
       borderRadius: {
         lg: "var(--radius)",

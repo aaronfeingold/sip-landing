@@ -85,20 +85,24 @@ const VenmoDeepLink: React.FC<VenmoDeepLinkProps> = ({ username, className, chil
         {children}
       </a>
 
-      <AlertDialog open={showFallbackDialog} onOpenChange={setShowFallbackDialog}>
-        <AlertDialogContent className="bg-[#fab3a9] border-none max-w-xs">
+      <AlertDialog
+        open={showFallbackDialog}
+        onOpenChange={setShowFallbackDialog}
+      >
+        <AlertDialogContent className="bg-wine-light border-none max-w-xs">
           <AlertDialogHeader className="space-y-3">
-            <AlertDialogTitle className="text-pink-900 text-xl">
+            <AlertDialogTitle className="text-wine-900 text-xl">
               Venmo App Not Found
             </AlertDialogTitle>
             <AlertDialogDescription className="text-pink-900 text-base">
-              The Venmo app doesn&apos;t seem to be installed. Would you like to install it or continue to the website?
+              The Venmo app doesn&apos;t seem to be installed. Would you like to
+              install it or continue to the website?
             </AlertDialogDescription>
           </AlertDialogHeader>
           <AlertDialogFooter className="flex flex-col space-y-2 sm:space-y-0 sm:space-x-2">
             <AlertDialogAction
               onClick={handleInstallApp}
-              className="bg-pink-900 text-white hover:bg-pink-800 px-4 py-2 rounded-lg"
+              className="bg-wine-900 text-white hover:bg-wine-800 px-4 py-2 rounded-lg"
             >
               Install Venmo App
             </AlertDialogAction>
@@ -108,7 +112,7 @@ const VenmoDeepLink: React.FC<VenmoDeepLinkProps> = ({ username, className, chil
             >
               Open in Browser
             </AlertDialogAction>
-            <AlertDialogCancel className="border-2 border-pink-900 text-pink-900 hover:bg-pink-900 hover:text-white px-4 py-2 rounded-lg">
+            <AlertDialogCancel className="border-2 border-wine-900 text-wine-900 hover:bg-wine-900 hover:text-white px-4 py-2 rounded-lg">
               Cancel
             </AlertDialogCancel>
           </AlertDialogFooter>
