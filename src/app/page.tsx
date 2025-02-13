@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { Facebook, Instagram, Globe } from "lucide-react";
+import { Instagram, Globe } from "lucide-react";
 import sipTheOwl from "../../public/sipTheOwl.svg";
 
 export default function Home() {
@@ -52,12 +52,17 @@ export default function Home() {
         </div>
 
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-white to-pink-200 px-4">
-          Coming Soon: &quot;Somm in Palm&quot;
+          Meet SIP: Your Sommelier In Palm
         </h1>
 
-        <p className="text-lg md:text-xl mb-12 text-pink-100 px-4">
-          SIP the Owl is serving elevated dining experiences in{" "}
-          <b>New Orleans</b> this Valentine&apos;s
+        <p className="text-lg md:text-xl mb-6 text-pink-100 px-4">
+          Let SIP the Owl, your pocket sommelier, guide you to extraordinary
+          dining experiences
+        </p>
+
+        <p className="text-base md:text-lg mb-12 text-pink-100 px-4">
+          Launching this Valentine&apos;s in <b>New Orleans</b> — elevate your
+          palette with our wise wine companion
         </p>
         <div className="flex flex-col gap-4 w-full max-w-xs px-4">
           <a
@@ -80,34 +85,26 @@ export default function Home() {
 
         <div className="mt-12 flex gap-8">
           <a
-            href="https://facebook.com/yourFacebookPage"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-white hover:text-pink-200 transition-colors"
-          >
-            <Facebook size={32} />
-          </a>
-          <a
-            href="https://instagram.com/yourInstagramPage"
+            href="https://instagram.com/siptheowl"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white hover:text-pink-200 transition-colors"
           >
             <Instagram size={32} />
           </a>
+          <a
+            href="https://www.aaron-feingold.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 text-white hover:text-pink-200 transition-colors text-lg"
+          >
+            <Globe size={20} />
+          </a>
         </div>
       </main>
 
       <footer className="relative z-10 mt-16 mb-8">
-        <a
-          href="https://www.aaron-feingold.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-2 text-white hover:text-pink-200 transition-colors text-lg"
-        >
-          <Globe size={20} />
-          <span>Learn About the Team</span>
-        </a>
+        <span>SIP IN STYLE</span>
       </footer>
     </div>
   );
